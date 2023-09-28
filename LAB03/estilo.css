@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.jpg'); 
+    background-size: cover; 
+    text-align: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #700bdb;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(241, 236, 236, 0.904);
+}
+h1 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+img {
+
+    max-width: 70%;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 236, 236, 0.904);
+}
+section {
+    background-color: rgb(188, 147, 241);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 236, 236, 0.904);
+
+    flex: 1;
+}
+.avatar{
+    border-radius: 50%;
+    max-width: 20%;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 236, 236, 0.904);
+}
+h2 {
+    color: #6e08e2;
+    font-family: "Times New Roman", Times, serif;
+}
+audio {
+    margin-top: 20px; 
+    max-width: 100%;
+}
+.columnas-en-linea {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+}
+.columna {
+    flex: 1;
+    width: 96.45%; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+.video {
+    width: 80%;
+}
+.redes-sociales {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 30px
+}
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

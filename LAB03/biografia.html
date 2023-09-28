@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Presentación Personal</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Mi Presentación Personal</h1>
+    </header>
+
+    <img class="avatar" src="avatar.jpg" alt="Mi Foto">
+
+    <section>
+        <h2>Presentación Personal</h2>
+        <p>Hola, soy Melber Antonny Mamanchura Alcca, y esta es mi página de presentación personal.</p>
+    </section>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Mi pasion: "Mi pasión es la tecnología. Desde que era joven, he estado fascinado por cómo la tecnología 
+            puede cambiar nuestras vidas y mejorar el mundo que nos rodea. Me emociona aprender sobre las últimas 
+            innovaciones, explorar nuevas aplicaciones y buscar soluciones creativas a través de la tecnología. 
+            Creo que esta pasión me motiva a estudiar y trabajar en este campo para contribuir al progreso y la 
+            innovación tecnológica en el futuro.</p>
+
+                <div class="columna">
+                    <h2>Hobby: Música</h2>
+                    <p>Me encanta las musicas con sonidos fuertes y en ingles coo las que se muestran a continuacion: </p>
+                    <audio controls>
+                        <source src="After Dark x Sweater Weather (192 kbps).mp3" type="audio/mpeg">
+                    </audio>
+                    <audio controls>
+                        <source src="Sea Of Problems (256 kbps).mp3" type="audio/mpeg">
+                    </audio>
+                    <audio controls>
+                        <source src="Shattered (256 kbps).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="columna">
+                    <h2>Hobby: Animes y Series</h2>
+                    <p>Me gusta ver animes y series en mi tiempo libre, ademas de verlos me da tranquilidad en mi vida diaria</p>
+                    <video class="video" controls>
+                        <source src="Dragon Ball Super ending 10.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+        
+        <h2>Gustos: Mi carro favorito</h2>
+        <video class="video" controls>
+            <source src="Camaro Chevrolet.mp4" type="video/mp4">
+        </video>
+        <h2>Gustos: Mi Comida Favorita</h2>
+        <H2>Mi comida favorita es el aji de Gallina</H2>
+        <div class="columna">
+            <img src="Comida Favorita.jpg" alt="Aji de Gallina">
+        </div>
+        <h2>Gustos: La astronomia</h2>
+        <div class="columna">
+            <img src="Universo-e1537822135973.jpg" alt="Aji de Gallina">
+        </div>
+    </section>
+
+    <section>
+        <h2>Tecnologías y Lenguajes de Programación</h2>
+        <p>Me encanta trabajar con las siguientes tecnologías y lenguajes de programación:</p>
+        <ul>
+            <li><strong>HTML:</strong> HTML es el lenguaje fundamental para crear páginas web. 
+                Me fascina la forma en que permite estructurar el contenido de una manera semántica y 
+                crear interfaces interactivas.</li>
+            <li><strong>CSS3:</strong> CSS3 es esencial para dar estilo y diseño a las páginas web. 
+                Disfruto de la creatividad que se puede expresar a través de la estilización y animación 
+                de elementos.</li>
+            <li><strong>JavaScript:</strong> JavaScript es la base de la programación web interactiva. 
+                Me apasiona su capacidad para crear experiencias dinámicas en el navegador y su creciente 
+                uso en el desarrollo de aplicaciones.</li>
+            <li><strong>Python:</strong> Python es un lenguaje versátil que se puede utilizar en una 
+                variedad de aplicaciones, desde desarrollo web hasta análisis de datos. Me atrae su 
+                legibilidad y la comunidad activa que lo respalda.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Formación Profesional</h2>
+        <p>Estoy estudiando la carrera de "Diseño y Desarrollo de Software", una carrera de 3 años que me ha 
+            proporcionado una base sólida en el mundo de la informática y la programación. A lo largo de mi 
+            formación, he adquirido conocimientos y habilidades en diversas áreas, incluyendo:</p>
+    <ul>
+        <li>Programación en varios lenguajes, incluyendo HTML, CSS, JavaScript y Python.</li>
+        <li>Diseño de interfaces de usuario y experiencia de usuario (UI/UX).</li>
+        <li>Desarrollo de aplicaciones web y móviles.</li>
+        <li>Gestión de bases de datos y almacenamiento de datos.</li>
+        <li>Resolución de problemas y desarrollo de soluciones informáticas.</li>
+    </ul>
+    <p>Esta formación profesional me ha preparado para enfrentar los desafíos del mundo digital y me ha brindado 
+        las herramientas necesarias para contribuir de manera efectiva en proyectos de software. Estoy emocionado/a 
+        de seguir aprendiendo y creciendo en esta apasionante carrera.</p>
+
+    </section>
+
+    <section>
+        <h2>Idiomas</h2>
+        <p>Hablo los siguientes idiomas:</p>
+        <ul>
+            <li>Español(Nativo): Es el idioma con el que creci y se habla en el peru, es el unico idioma por el cual 
+                me puedo comunicar muy bien con las personas, amigos, profesores y mas que todo en mis estudios</li>
+            <li>Japones(Aprendiendo): Es uno de los idiomas que yo quisiera aprender, ya que una de mis metas es ir 
+                al pais asiatico donde quisiera aprender de ellos sobre mi carrera y adentrarme mas en el mundo de 
+                la tecnologia</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Selecciona la información que deseas ver:</h2>
+        <form id="infoForm">
+            <label>
+                <input type="radio" name="info" value="nombre"> nombre
+            </label>
+            <label>
+                <input type="radio" name="info" value="edad"> edad
+            </label>
+            <label>
+                <input type="radio" name="info" value="correo"> correo
+            </label>
+            <label>
+                <input type="radio" name="info" value="celular"> celular
+            </label>
+            <button type="button" onclick="mostrarInformacion()">Mostrar Información</button>
+        </form>
+    </section>
+    <section>
+        <div id="informacionMostrada">
+        </div>
+    </section>
+    
+    <script>
+        function mostrarInformacion() {
+            const form = document.getElementById("infoForm");   
+            const selectedOption = form.querySelector('input[name="info"]:checked');    
+            const selectedValue = selectedOption ? selectedOption.value : null;   
+            const informacionMostrada = document.getElementById("informacionMostrada");   
+            informacionMostrada.innerHTML = "";   
+            if (selectedValue === "nombre") {
+                informacionMostrada.textContent = "Nombre: Melber Antonny Mamanchura Alcca";
+            } else if (selectedValue === "edad") {
+                informacionMostrada.textContent = "Edad: 19 años";
+            } else if (selectedValue === "correo") {
+                informacionMostrada.textContent = "Correo: melber.mamanchura@tecsup.edu.pe";
+            } else if (selectedValue === "celular") {
+                informacionMostrada.textContent = "celular: +51 976 353 496";
+            } else {
+                informacionMostrada.textContent = "Selecciona una opción válida.";
+            }
+        }
+    </script>
+
+    <div class="redes-sociales">
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://api.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://discord.gg" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://www.youtube.com"  target="_blank"><i class="fab fa-youtube"></i></a>
+
+    </div>
+</body>
+</html>
